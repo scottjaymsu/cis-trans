@@ -1,0 +1,54 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: achemso.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: acs-main.bib
+Database file #2: cistrans.bib
+Repeated entry---line 3945 of file cistrans.bib
+ : @article{eberlein2018immediate
+ :                               ,
+I'm skipping whatever remains of this entry
+achemso 2021-01-20 v3.13c
+You've used 26 entries,
+            2538 wiz_defined-function locations,
+            919 strings with 12802 characters,
+and the built_in function-call counts, 9809 in all, are:
+= -- 806
+> -- 590
+< -- 14
++ -- 233
+- -- 208
+* -- 1079
+:= -- 1328
+add.period$ -- 50
+call.type$ -- 26
+change.case$ -- 4
+chr.to.int$ -- 2
+cite$ -- 26
+duplicate$ -- 536
+empty$ -- 627
+format.name$ -- 245
+if$ -- 1860
+int.to.chr$ -- 0
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 178
+num.names$ -- 75
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 25
+stack$ -- 0
+substring$ -- 588
+swap$ -- 582
+text.length$ -- 50
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 179
+warning$ -- 0
+while$ -- 101
+width$ -- 0
+write$ -- 351
+(There was 1 error message)

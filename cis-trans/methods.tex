@@ -1,0 +1,24 @@
+\section{Methods}
+\subsection{Modeling \emph{Pseudomonas aeruginosa} membrane}
+The membrane lipidomic data was extracted from the work done by R{\"u}hl et al.\cite{ruhl2012glycerophospholipid}.
+The headgroup composition of membrane was 12:7:1 for PE:PG:CL.
+The detailed composition of the lipids along with tails is given in the table \ref{}  
+
+\begin{table}
+	\caption{\label{tab:bilayers}Head group and tail composition of one leaflet of \emph{Pseudomonas aeruginosa} bilayer used for molecular dynamics simulation. }
+	
+	\begin{tabular}{lrlr}
+		\toprule
+		Lipid Type &  Total Number & Name & Tails \\
+		\midrule
+		PE(34:2)   &   28		   & YOPE &  16:1/18:1 \\
+		PE(32:1)   &   20		   & PYPE &  16:0/16:1 \\
+		PE(34:1)   &   14		   & POPE &  16:0/18:1 \\
+		PE(34:2)   &   28		   & YOPE &  16:1/18:1
+		
+	\end{tabular}
+\end{table}
+
+\subsection{Simulation Protocol}
+The energy levels were minimized in 1000 steps using NAMD version 2.14\cite{phillips2005scalable}. Then, the simulations were carried out on NAMD version 3.0alpha9. Ten molecules were placed onto both sides of the membrane for each simulation. The simulation ran for 2000 nanoseconds.
+The simulations were done using the CHARMM36 force field in NAMD 2.11\cite{phillips2005scalable}. Both the models were TIP3P water models with a 12 Angstrom nonbonded cutoff. Anisotropic pressure coupling was held consistent using the Langevin piston method at a pressure of 1 atm. Using the SETTLE algorithm to fix hydrogen bonds at the same length, the time step was at 2 fs.

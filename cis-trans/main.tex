@@ -1,0 +1,62 @@
+\documentclass[manuscript=article,layout=traditional]{achemso}
+\usepackage{geometry}
+\usepackage{tabu}
+\usepackage{xr} %Allows refs across documents (mostly to the supplement in this case).
+
+\usepackage{booktabs}
+\usepackage{etoolbox}
+\usepackage[outline]{contour}
+\usepackage{svg}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{amsmath}
+\usepackage{todonotes}
+\usepackage{xspace}
+
+\externaldocument{supplement}
+%\usepackage[
+%backend=biber,
+%doi=true,
+%sorting=none,
+%style=chem-acs,articletitle=true,autocite=superscript
+%]{biblatex}
+
+\newcommand{\Angs}{\AA\xspace}
+\newcommand{\kcalmol}{kcal\,mol$^{-1}$\xspace}
+
+%\renewcommand{\cite}{\autocite}
+\newcommand{\blue}{\color{blue}}
+\newcommand{\green}{\color{green}}
+\newcommand{\red}{\color{red}}
+\newcommand{\black}{\color{black}}
+\makeatletter
+
+\title{Cis-Trans Membrane Simulation}
+\author{Saad Raza}
+\affiliation[Michigan State University]
+{Plant Research Laboratory, College of Natural Science, Michigan State University, East Lansing MI 48824}
+\author{Troy Sievertsen}
+\affiliation[Michigan State University]
+{Department Of Biochemistry and Molecular Biology, College of Natural Science, Michigan State University, East Lansing MI 48824}
+\author{Majid Jafari}
+\affiliation[Michigan State University]
+{Department Of Biochemistry and Molecular Biology, College of Natural Science, Michigan State University, East Lansing MI 48824}
+\author{Josh Vermaas}
+\email{vermaasj@msu.edu}
+\affiliation[Michigan State University]
+{Plant Research Laboratory, College of Natural Science, Michigan State University, East Lansing MI 48824}
+\alsoaffiliation{Department Of Biochemistry and Molecular Biology, College of Natural Science, Michigan State University, East Lansing MI 48824}
+\email{vermaasj@msu.edu}
+\phone{+1 (517) 884-6937}
+
+\begin{document}
+\maketitle
+
+\input{abstract}
+\newpage
+\input{introduction}
+\input{methods}
+\input{results}
+\input{conclusion}
+\bibliography{cistrans}
+\end{document}

@@ -1,0 +1,271 @@
+\providecommand{\latin}[1]{#1}
+\makeatletter
+\providecommand{\doi}
+  {\begingroup\let\do\@makeother\dospecials
+  \catcode`\{=1 \catcode`\}=2 \doi@aux}
+\providecommand{\doi@aux}[1]{\endgroup\texttt{#1}}
+\makeatother
+\providecommand*\mcitethebibliography{\thebibliography}
+\csname @ifundefined\endcsname{endmcitethebibliography}
+  {\let\endmcitethebibliography\endthebibliography}{}
+\begin{mcitethebibliography}{26}
+\providecommand*\natexlab[1]{#1}
+\providecommand*\mciteSetBstSublistMode[1]{}
+\providecommand*\mciteSetBstMaxWidthForm[2]{}
+\providecommand*\mciteBstWouldAddEndPuncttrue
+  {\def\EndOfBibitem{\unskip.}}
+\providecommand*\mciteBstWouldAddEndPunctfalse
+  {\let\EndOfBibitem\relax}
+\providecommand*\mciteSetBstMidEndSepPunct[3]{}
+\providecommand*\mciteSetBstSublistLabelBeginEnd[3]{}
+\providecommand*\EndOfBibitem{}
+\mciteSetBstSublistMode{f}
+\mciteSetBstMaxWidthForm{subitem}{(\alph{mcitesubitemcount})}
+\mciteSetBstSublistLabelBeginEnd
+  {\mcitemaxwidthsubitemform\space}
+  {\relax}
+  {\relax}
+
+\bibitem[Los and Murata(2004)Los, and Murata]{los2004membrane}
+Los,~D.~A.; Murata,~N. Membrane fluidity and its roles in the perception of
+  environmental signals. \emph{Biochimica et Biophysica Acta
+  (BBA)-Biomembranes} \textbf{2004}, \emph{1666}, 142--157\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Eberlein \latin{et~al.}(2018)Eberlein, Baumgarten, Starke, and
+  Heipieper]{eberlein2018immediate}
+Eberlein,~C.; Baumgarten,~T.; Starke,~S.; Heipieper,~H.~J. {Immediate response
+  mechanisms of Gram-negative solvent-tolerant bacteria to cope with
+  environmental stress: cis-trans isomerization of unsaturated fatty acids and
+  outer membrane vesicle secretion}. \emph{Applied microbiology and
+  biotechnology} \textbf{2018}, \emph{102}, 2583--2593\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Heipieper \latin{et~al.}(1992)Heipieper, Diefenbach, and
+  Keweloh]{heipieper1992conversion}
+Heipieper,~H.-J.; Diefenbach,~R.; Keweloh,~H. {Conversion of cis unsaturated
+  fatty acids to trans, a possible mechanism for the protection of
+  phenol-degrading Pseudomonas putida P8 from substrate toxicity}.
+  \emph{Applied and Environmental Microbiology} \textbf{1992}, \emph{58},
+  1847--1852\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Okuyama \latin{et~al.}(1991)Okuyama, Okajima, Sasaki, Higashi, and
+  Murata]{okuyama1991cis}
+Okuyama,~H.; Okajima,~N.; Sasaki,~S.; Higashi,~S.; Murata,~N. {The cis/trans
+  isomerization of the double bond of a fatty acid as a strategy for adaptation
+  to changes in ambient temperature in the psychrophilic bacterium, Vibrio sp.
+  strain ABE-1}. \emph{Biochimica et Biophysica Acta (BBA)-Lipids and Lipid
+  Metabolism} \textbf{1991}, \emph{1084}, 13--20\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Poblete-Castro \latin{et~al.}(2012)Poblete-Castro, Becker, Dohnt,
+  Dos~Santos, and Wittmann]{poblete2012industrial}
+Poblete-Castro,~I.; Becker,~J.; Dohnt,~K.; Dos~Santos,~V.~M.; Wittmann,~C.
+  Industrial biotechnology of Pseudomonas putida and related species.
+  \emph{Applied microbiology and biotechnology} \textbf{2012}, \emph{93},
+  2279--2290\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Timmis(2002)]{timmis2002pseudomonas}
+Timmis,~K.~N. Pseudomonas putida: a cosmopolitan opportunist par excellence.
+  2002\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wenzel \latin{et~al.}(2005)Wenzel, Gross, Zhang, Fu, Stewart, and
+  M{\"u}ller]{wenzel2005heterologous}
+Wenzel,~S.~C.; Gross,~F.; Zhang,~Y.; Fu,~J.; Stewart,~A.~F.; M{\"u}ller,~R.
+  Heterologous expression of a myxobacterial natural products assembly line in
+  pseudomonads via red/ET recombineering. \emph{Chemistry \& biology}
+  \textbf{2005}, \emph{12}, 349--356\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Gross \latin{et~al.}(2005)Gross, Gottschalk, and
+  M{\"u}ller]{gross2005posttranslational}
+Gross,~F.; Gottschalk,~D.; M{\"u}ller,~R. Posttranslational modification of
+  myxobacterial carrier protein domains in Pseudomonas sp. by an intrinsic
+  phosphopantetheinyl transferase. \emph{Applied microbiology and
+  biotechnology} \textbf{2005}, \emph{68}, 66--74\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Peter \latin{et~al.}(2017)Peter, Oberhettinger, Schuele, Dinkelacker,
+  Vogel, D{\"o}rfel, Bezdan, Ossowski, Marschal, Liese, \latin{et~al.}
+  others]{peter2017genomic}
+Peter,~S.; Oberhettinger,~P.; Schuele,~L.; Dinkelacker,~A.; Vogel,~W.;
+  D{\"o}rfel,~D.; Bezdan,~D.; Ossowski,~S.; Marschal,~M.; Liese,~J.,
+  \latin{et~al.}  Genomic characterisation of clinical and environmental
+  Pseudomonas putida group strains and determination of their role in the
+  transfer of antimicrobial resistance genes to Pseudomonas aeruginosa.
+  \emph{BMC genomics} \textbf{2017}, \emph{18}, 1--11\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Tohya \latin{et~al.}(2022)Tohya, Teramoto, Watanabe, Hishinuma,
+  Shimojima, Ogawa, Tada, Tabe, and Kirikae]{tohya2022whole}
+Tohya,~M.; Teramoto,~K.; Watanabe,~S.; Hishinuma,~T.; Shimojima,~M.; Ogawa,~M.;
+  Tada,~T.; Tabe,~Y.; Kirikae,~T. Whole-Genome Sequencing-Based
+  Re-Identification of Pseudomonas putida/fluorescens Clinical Isolates
+  Identified by Biochemical Bacterial Identification Systems.
+  \emph{Microbiology Spectrum} \textbf{2022}, \emph{10}, e02491--21\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mart{\'\i}nez-Toledo \latin{et~al.}(2022)Mart{\'\i}nez-Toledo, del
+  Carmen Cuevas-D{\'\i}az, Guzm{\'a}n-L{\'o}pez, L{\'o}pez-Luna, and
+  Ilizaliturri-Hern{\'a}ndez]{martinez2022evaluation}
+Mart{\'\i}nez-Toledo,~{\'A}.; del Carmen Cuevas-D{\'\i}az,~M.;
+  Guzm{\'a}n-L{\'o}pez,~O.; L{\'o}pez-Luna,~J.; Ilizaliturri-Hern{\'a}ndez,~C.
+  Evaluation of in situ biosurfactant production by inoculum of P. putida and
+  nutrient addition for the removal of polycyclic aromatic hydrocarbons from
+  aged oil-polluted soil. \emph{Biodegradation} \textbf{2022}, \emph{33},
+  135--155\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Wang \latin{et~al.}(2009)Wang, Li, and Chen]{wang2009production}
+Wang,~H.-h.; Li,~X.-t.; Chen,~G.-Q. Production and characterization of
+  homopolymer polyhydroxyheptanoate (P3HHp) by a fadBA knockout mutant
+  Pseudomonas putida KTOY06 derived from P. putida KT2442. \emph{Process
+  Biochemistry} \textbf{2009}, \emph{44}, 106--111\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kulkarni and Chaudhari(2006)Kulkarni, and
+  Chaudhari]{kulkarni2006biodegradation}
+Kulkarni,~M.; Chaudhari,~A. Biodegradation of p-nitrophenol by P. putida.
+  \emph{Bioresource Technology} \textbf{2006}, \emph{97}, 982--988\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mart{\'\i}nez-Garc{\'\i}a
+  \latin{et~al.}(2014)Mart{\'\i}nez-Garc{\'\i}a, Nikel, Aparicio, and
+  de~Lorenzo]{martinez2014pseudomonas}
+Mart{\'\i}nez-Garc{\'\i}a,~E.; Nikel,~P.~I.; Aparicio,~T.; de~Lorenzo,~V.
+  Pseudomonas 2.0: genetic upgrading of P. putida KT2440 as an enhanced host
+  for heterologous gene expression. \emph{Microbial cell factories}
+  \textbf{2014}, \emph{13}, 1--15\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[De~Carvalho \latin{et~al.}(2004)De~Carvalho, Da~Cruz, Pons, Pinheiro,
+  Cabral, Da~Fonseca, Ferreira, and Fernandes]{de2004mycobacterium}
+De~Carvalho,~C.~C.; Da~Cruz,~A.~A.; Pons,~M.-N.; Pinheiro,~H.~M.;
+  Cabral,~J.~M.; Da~Fonseca,~M. M.~R.; Ferreira,~B.~S.; Fernandes,~P.
+  Mycobacterium sp., Rhodococcus erythropolis, and Pseudomonas putida behavior
+  in the presence of organic solvents. \emph{Microscopy research and technique}
+  \textbf{2004}, \emph{64}, 215--222\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[R{\"u}hl \latin{et~al.}(2012)R{\"u}hl, Hein, Hayen, Schmid, and
+  Blank]{ruhl2012glycerophospholipid}
+R{\"u}hl,~J.; Hein,~E.-M.; Hayen,~H.; Schmid,~A.; Blank,~L.~M. The
+  glycerophospholipid inventory of Pseudomonas putida is conserved between
+  strains and enables growth condition-related alterations. \emph{Microbial
+  biotechnology} \textbf{2012}, \emph{5}, 45--58\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Schwechheimer and Kuehn(2015)Schwechheimer, and
+  Kuehn]{schwechheimer2015outer}
+Schwechheimer,~C.; Kuehn,~M.~J. {Outer-membrane vesicles from Gram-negative
+  bacteria: biogenesis and functions}. \emph{Nature reviews microbiology}
+  \textbf{2015}, \emph{13}, 605--619\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Beveridge(1999)]{beveridge1999structures}
+Beveridge,~T.~J. {Structures of gram-negative cell walls and their derived
+  membrane vesicles}. \emph{Journal of bacteriology} \textbf{1999}, \emph{181},
+  4725--4733\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Kuehn and Kesty(2005)Kuehn, and Kesty]{kuehn2005bacterial}
+Kuehn,~M.~J.; Kesty,~N.~C. {Bacterial outer membrane vesicles and the
+  host--pathogen interaction}. \emph{Genes \& development} \textbf{2005},
+  \emph{19}, 2645--2655\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Mashburn-Warren \latin{et~al.}(2008)Mashburn-Warren, Mclean, and
+  Whiteley]{mashburn2008gram}
+Mashburn-Warren,~L.; Mclean,~R. J.~C.; Whiteley,~M. {Gram-negative outer
+  membrane vesicles: beyond the cell surface}. \emph{Geobiology} \textbf{2008},
+  \emph{6}, 214--219\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Beney and Gervais(2001)Beney, and Gervais]{beney2001influence}
+Beney,~L.; Gervais,~P. {Influence of the fluidity of the membrane on the
+  response of microorganisms to environmental stresses}. \emph{Applied
+  microbiology and biotechnology} \textbf{2001}, \emph{57}, 34--42\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Hazel and Williams(1990)Hazel, and Williams]{hazel1990role}
+Hazel,~J.~R.; Williams,~E.~E. {The role of alterations in membrane lipid
+  composition in enabling physiological adaptation of organisms to their
+  physical environment}. \emph{Progress in lipid research} \textbf{1990},
+  \emph{29}, 167--227\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Heipieper and {De Bont}(1994)Heipieper, and {De
+  Bont}]{heipieper1994adaptation}
+Heipieper,~H.~J.; {De Bont},~J.~A. {Adaptation of Pseudomonas putida S12 to
+  ethanol and toluene at the level of fatty acid composition of membranes}.
+  \emph{Applied and environmental microbiology} \textbf{1994}, \emph{60},
+  4440--4444\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Isken and de~Bont(1998)Isken, and de~Bont]{isken1998bacteria}
+Isken,~S.; de~Bont,~J. A.~M. {Bacteria tolerant to organic solvents}.
+  \emph{Extremophiles} \textbf{1998}, \emph{2}, 229--238\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\bibitem[Phillips \latin{et~al.}(2005)Phillips, Braun, Wang, Gumbart,
+  Tajkhorshid, Villa, Chipot, Skeel, Kale, and Schulten]{phillips2005scalable}
+Phillips,~J.~C.; Braun,~R.; Wang,~W.; Gumbart,~J.; Tajkhorshid,~E.; Villa,~E.;
+  Chipot,~C.; Skeel,~R.~D.; Kale,~L.; Schulten,~K. {Scalable molecular dynamics
+  with NAMD}. \emph{Journal of computational chemistry} \textbf{2005},
+  \emph{26}, 1781--1802\relax
+\mciteBstWouldAddEndPuncttrue
+\mciteSetBstMidEndSepPunct{\mcitedefaultmidpunct}
+{\mcitedefaultendpunct}{\mcitedefaultseppunct}\relax
+\EndOfBibitem
+\end{mcitethebibliography}
